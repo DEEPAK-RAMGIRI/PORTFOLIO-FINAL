@@ -1,7 +1,7 @@
-/* ----- POPPINS FONT Link ----- */
+/* - POPPINS FONT Link - */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ----- VARIABLES ----- */
+/* - VARIABLES - */
 :root{
     --body-color: #ededed;
     --color-white: rgb(255, 255, 255);
@@ -18,7 +18,7 @@
 
 }
 
-/* ----- BASE ----- */
+/* - BASE - */
 *{
     margin: 0;
     padding: 0;
@@ -26,12 +26,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* ----- SMOOTH SCROLL ----- */
+/* - SMOOTH SCROLL - */
 html{
     scroll-behavior: smooth;
 }
 
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+/* - CHANGE THE SCROLL BAR DESIGN - */
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
@@ -49,7 +49,7 @@ html{
 
 
 
-/* ----- GLOBAL BUTTON DESIGN ----- */
+/* - GLOBAL BUTTON DESIGN - */
 .btn{
     font-weight: 500;
     padding: 12px 20px;
@@ -67,12 +67,12 @@ html{
     color: var(--color-white);
 }
 
-/* ----- GLOBAL ICONS DESIGN ----- */
+/* - GLOBAL ICONS DESIGN - */
 i{
     font-size: 16px;
 }
 
-/* ------- BASE -------- */
+/* --- BASE  */
 body{
     /* background: var(--body-color); */
     /* background-color: aqua; */
@@ -81,7 +81,7 @@ body{
     background-repeat: no-repeat; 
     background-position: center; 
     
-    /* background-color: #121212;  /* Dark background */
+    /* background-color: #121212;  
     /* color: #ffffff;  Light text */ 
     
 }
@@ -90,7 +90,7 @@ body{
     position: relative;         
 }
 
-/* ----- NAVIGATION BAR ----- */
+/* - NAVIGATION BAR - */
 nav{
     position: fixed;
     display: flex;
@@ -157,12 +157,12 @@ nav{
 }
 
 
-/* ----- WRAPPER DESIGN ----- */
+/* - WRAPPER DESIGN - */
 .wrapper{
     padding-inline: 10vw;
 }
 
-/* ----- FEATURED BOX ----- */
+/* - FEATURED BOX - */
 .featured-box{
     position: relative;
     display: flex;
@@ -170,7 +170,7 @@ nav{
     min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
+/* - FEATURED TEXT BOX - */
 .featured-text{
     position: relative;
     display: flex;
@@ -241,7 +241,7 @@ nav{
     color: var(--first-color);
 }
 
-/* ----- FEATURED IMAGE BOX ----- */
+/* - FEATURED IMAGE BOX - */
 .featured-image{
     display: flex;
     justify-content: right;
@@ -289,7 +289,7 @@ nav{
     font-size: 20px;
 }
 
-/* ----- MAIN BOX ----- */
+/* - MAIN BOX - */
 .section{
     padding-block: 5em;
 }
@@ -324,7 +324,7 @@ h3{
     margin-bottom: 15px;
 }
 
-/* ----- ABOUT INFO ----- */
+/* - ABOUT INFO - */
 .about-info{
     position: relative;
     display: flex;
@@ -354,7 +354,7 @@ h3{
     background: var(--first-color-hover);
 }
 
-/* ----- ABOUT / SKILLS BOX ----- */
+/* - ABOUT / SKILLS BOX - */
 .skills-box{
     margin: 10px;
 }
@@ -374,7 +374,7 @@ h3{
     border-radius: 5px;
 }
 
-/* ----- PROJECTS BOX ----- */
+/* - PROJECTS BOX - */
 .project-container{
     padding-bottom: 25px;
     display: flex;
@@ -436,7 +436,7 @@ h3{
 }
 
 
-/* ----- CONTACT BOX ----- */
+/* - CONTACT BOX - */
 .contact-info{
     position: relative;
     display: flex;
@@ -475,7 +475,7 @@ h3{
     z-index: 2;
 }
 
-/* ----- CONTACT FORM ----- */
+/* - CONTACT FORM - */
 .form-control{
     display: flex;
     flex-direction: column;
@@ -521,7 +521,7 @@ textarea{
     rotate: -45deg;
 }
 
-/* ----- FOOTER BOX ----- */
+/* - FOOTER BOX - */
 footer{
     display: flex;
     justify-content: center;
@@ -557,7 +557,7 @@ footer{
 }
 
 
-/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+/* - MEDIA QUERY == 1024px / RESPONSIVE - */
 @media only screen and (max-width: 1024px){
     .featured-text{
         padding: 0;
@@ -568,7 +568,7 @@ footer{
     }
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+/* - MEDIA QUERY == 900px / RESPONSIVE - */
 @media only screen and (max-width: 900px) {
     .nav-button{
         display: none;
@@ -647,7 +647,7 @@ footer{
 
 }
 
-/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+/* - MEDIA QUERY == 540px / RESPONSIVE - */
 
 @media only screen and (max-width: 540px){
     .featured-name{
